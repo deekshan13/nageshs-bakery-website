@@ -19,6 +19,15 @@ export default {
 		},
 		extend: {
 			colors: {
+                bakery: {
+                    brown: '#8B5A2B',
+                    cream: '#FFF8E1',
+                    gold: '#D4AF37',
+                    tan: '#D2B48C',
+                    crust: '#E1B382',
+                    orange: '#FFA07A',
+                    chocolate: '#3B2106'
+                },
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
