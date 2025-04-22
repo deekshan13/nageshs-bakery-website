@@ -29,7 +29,7 @@ const Header = () => {
           <a href="#about" className="text-bakery-brown hover:text-bakery-chocolate font-medium">About</a>
           <a href="#products" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Products</a>
           <a href="#contact" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Contact</a>
-          <Button className="bakery-button">Order Now</Button>
+          {/* <Button className="bakery-button">Order Now</Button> */}
         </nav>
         
         {/* Mobile menu */}
