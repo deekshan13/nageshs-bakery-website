@@ -28,7 +28,6 @@ const Header = () => {
           <a href="#home" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Home</a>
           <a href="#about" className="text-bakery-brown hover:text-bakery-chocolate font-medium">About</a>
           <a href="#products" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Products</a>
-          <a href="#testimonials" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Testimonials</a>
           <a href="#contact" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Contact</a>
           <Button className="bakery-button">Order Now</Button>
         </nav>
@@ -40,7 +39,6 @@ const Header = () => {
               <a href="#home" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Home</a>
               <a href="#about" className="text-bakery-brown hover:text-bakery-chocolate font-medium">About</a>
               <a href="#products" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Products</a>
-              <a href="#testimonials" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Testimonials</a>
               <a href="#contact" className="text-bakery-brown hover:text-bakery-chocolate font-medium">Contact</a>
               <Button className="bakery-button">Order Now</Button>
             </nav>
