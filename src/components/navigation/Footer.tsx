@@ -9,18 +9,18 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Nagesh's Bakery</h3>
             <p className="text-white/80 mb-4">
-              Handcrafted baked goods made with love and the finest ingredients since 2010.
+              Handcrafted baked goods made with love and the finest ingredients since 2003.
             </p>
           </div>
           
           <div>
             <h3 className="text-xl font-semibold mb-4">Our Products</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white/80 hover:text-white transition-colors">Artisan Breads</a></li>
+              <li><a href="#" className="text-white/80 hover:text-white transition-colors">Breads and Buns</a></li>
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Pastries</a></li>
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Cakes</a></li>
               <li><a href="#" className="text-white/80 hover:text-white transition-colors">Cookies</a></li>
-              <li><a href="#" className="text-white/80 hover:text-white transition-colors">Seasonal Specials</a></li>
+              <li><a href="#" className="text-white/80 hover:text-white transition-colors">Veg and egg puffs</a></li>
             </ul>
           </div>
         </div>
