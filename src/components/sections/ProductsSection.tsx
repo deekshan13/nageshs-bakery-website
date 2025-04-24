@@ -3,45 +3,57 @@ const ProductsSection = () => {
   const products = [
     {
       id: 1,
-      name: "Artisan Sourdough",
-      description: "Naturally leavened sourdough bread with a crispy crust and soft, chewy interior.",
-      price: "$6.99",
-      image: "https://images.unsplash.com/photo-1585478259715-4d3a2dd0b3b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      name: "Chocolate Cake",
+      description: "Rich and moist chocolate cake with vanilla or chocolate cream of your choice",
+      image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
     },
     {
       id: 2,
-      name: "Chocolate Croissant",
-      description: "Buttery, flaky croissants filled with rich chocolate and dusted with powdered sugar.",
-      price: "$4.50",
-      image: "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      name: "Cookies",
+      description: "Classic butter cookies,sesame cookies that are soft and chewy ",
+      image: "https://img.freepik.com/free-photo/delicious-chocolate-chip-cookies-arrangement_23-2150714604.jpg?ga=GA1.1.1018984189.1745385472&semt=ais_hybrid&w=740"
     },
     {
       id: 3,
-      name: "Blueberry Muffins",
-      description: "Moist muffins bursting with fresh blueberries and topped with a crunchy streusel.",
-      price: "$3.75",
-      image: "https://images.unsplash.com/photo-1614706180229-5ed8026f9253?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      name: "Bread",
+      description: "Naturally leavened sourdough bread with a crispy crust and soft, chewy interior.",
+      image: "https://img.freepik.com/free-photo/bread-wooden-tray-red-white-cloth_1150-23896.jpg?ga=GA1.1.1018984189.1745385472&semt=ais_hybrid&w=740"
     },
     {
       id: 4,
-      name: "Classic Cinnamon Rolls",
-      description: "Soft, pillowy rolls swirled with cinnamon sugar and topped with cream cheese frosting.",
-      price: "$4.25",
-      image: "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      name: "Sweets",
+      description: "Traditional Indian sweets crafted with rich ingredients and authentic flavors.",
+      image: "https://img.freepik.com/free-psd/top-view-traditional-indian-dessert_23-2150634512.jpg?ga=GA1.1.1018984189.1745385472&semt=ais_hybrid&w=740"
     },
     {
       id: 5,
-      name: "Fruit Tart",
+      name: "Banana Chips",
       description: "Buttery pastry shell filled with vanilla custard and topped with seasonal fresh fruits.",
-      price: "$5.99",
-      image: "https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      image: "https://img.freepik.com/free-photo/delicious-baked-banana-slices_23-2150764324.jpg?ga=GA1.1.1018984189.1745385472&semt=ais_hybrid&w=740"
     },
     {
       id: 6,
-      name: "Chocolate Cake",
-      description: "Rich, moist chocolate cake layered with ganache and chocolate buttercream.",
-      price: "$7.50",
-      image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      name: "Puffs",
+      description: "Crispy, flaky pastry puffs filled with a deliciously spiced vegetable or egg filling.",
+      image: "https://img.freepik.com/free-photo/chicken-pie-kurnik-that-is-beautifully-decorated-table_1150-23100.jpg?ga=GA1.1.1018984189.1745385472&semt=ais_hybrid&w=740"
+    },
+    {
+      id: 7,
+      name: "Ice cream",
+      description: "Creamy, delicious ice cream available in a variety of mouthwatering flavors.",
+      image: "https://hangyo.in/cdn/shop/collections/Group_76_3d6c629c-41c0-48a0-986b-c1674ca5e3ea.jpg?v=1715803681&width=535"
+    },
+    {
+      id: 8,
+      name: "Bread toast",
+      description: "A crispy bread toast layered with fresh vegetables and  sauce — perfect for a quick, tasty, and satisfying bite",
+      image: "https://img.freepik.com/free-photo/high-angle-triangle-sandwiches-with-tomatoes_23-2148640141.jpg?ga=GA1.1.1018984189.1745385472&semt=ais_hybrid&w=740"
+    },
+    {
+      id: 9,
+      name: "Soft drinks",
+      description: "Refreshing carbonated beverages available in assorted popular flavors",
+      image: "https://images-cdn.ubuy.co.in/64a5bf33ff11083f18096ce5-soft-drink-assortment-cola-pepsi.jpg"
     },
   ];
 
@@ -72,19 +84,19 @@ const ProductsSection = () => {
                   <span className="text-lg font-bold text-bakery-brown">{product.price}</span>
                 </div>
                 <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
-                <button className="text-bakery-brown border-b border-bakery-brown hover:text-bakery-chocolate transition-colors">
+                {/* <button className="text-bakery-brown border-b border-bakery-brown hover:text-bakery-chocolate transition-colors">
                   Add to cart
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
         </div>
         
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a href="#" className="bakery-button inline-block">
             View Full Menu
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

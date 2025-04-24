@@ -22,7 +22,7 @@ const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-bakery-brown mr-4" />
                   <div>
                     <h4 className="font-medium text-bakery-chocolate">Address</h4>
-                    <p className="text-bakery-brown">Chandan towers, Mahaveer Rd, Kalasa, Karnataka 577124</p>
+                    <p className="text-bakery-brown">Nagesh's Bakery, Chandan towers, Mahaveer Rd, Kalasa, Karnataka 577124</p>
                   </div>
                 </div>
                 

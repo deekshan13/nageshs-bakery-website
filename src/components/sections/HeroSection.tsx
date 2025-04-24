@@ -5,7 +5,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-bakery-cream to-transparent opacity-90"></div>
         <img 
-          src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1565182363525-f95648bbeee0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Freshly baked goods" 
           className="w-full h-full object-cover"
         />
@@ -17,8 +17,15 @@ const HeroSection = () => {
             Handcrafted Baked Goods With Love
           </h1>
           <p className="text-lg md:text-xl text-bakery-brown mb-8 max-w-lg">
-            Fresh pastries, artisan breads, and indulgent desserts baked daily with the finest ingredients.
+            Fresh pastries, breads, and indulgent desserts baked daily with the finest ingredients.
           </p>
+
+           {/* New Information Section */}
+        <ul className="text-bakery-brown text-base md:text-lg mb-8 list-disc list-inside">
+          <li>Curd and milk available daily</li>
+          <li>Pre-orders on cakes and sweets accepted</li>
+          <li>Custom cakes made to order</li>
+        </ul>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#products" className="inline-block text-center">
               <button className="bg-bakery-brown text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-bakery-chocolate hover:shadow-md">
